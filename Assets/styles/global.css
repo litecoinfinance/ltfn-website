@@ -1,0 +1,80 @@
+.bg-black {
+	background-color: #1B1B1E;
+}
+
+.bg-dark-blue {
+	background-color: #373F51;
+}
+
+.bg-dark-marine {
+	background-color: #546A76;
+}
+
+.bg-haki {
+	background-color: #898980;
+}
+
+.bg-grey {
+	background-color: #D8DBE2;
+}
+
+.text-dark-blue {
+
+}
+
+.text-matte-blue {
+	color: #546A76;
+}
+
+.text-dark-green {
+
+}
+
+.text-matte-green {
+
+}
+
+.bg-dark {
+	background-color: #1B1B1E !important;
+}
+
+.text-gradient-blue {
+	text-transform: uppercase;
+	background: linear-gradient(to bottom right, #6699cc 0%, #3d77b4 56%, #336699 76%, #003366 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Poppins", sans-serif;
+}
+
+.text-gradient-green {
+	text-transform: uppercase;
+	background: linear-gradient(to bottom right, #009966 0%, #008585 50%, #007a7a 75%, #006666 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Poppins", sans-serif;
+}
+
+.img-overlay-green-blue:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right, #009966 0%, #006666 40%, #003e3e 66%, #0b1718 100%);
+
+	opacity: .6;
+}
+
+.font-staat {
+	font-family: 'Staatliches', cursive;
+}
+
+.font-josefine {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.font48 {
+	font-size: 48px;
+}
+

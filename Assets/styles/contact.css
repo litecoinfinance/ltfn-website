@@ -1,0 +1,17 @@
+html, body {
+	min-height: 100%;
+}
+
+#wrap {
+	margin-top: 62px;
+	min-height: Calc(100vh - 150px);
+}
+
+.full-height {
+	min-height: Calc(100vh - 150px);
+}
+
+
+.icon-bigger {
+	font-size: 150px;
+}

@@ -1,0 +1,101 @@
+html, body {
+	min-height: 100%;
+}
+
+
+#wrap {
+	margin-top: 62px;
+	min-height: Calc(100% - 150px);
+}
+
+.full-height {
+	min-height: Calc(100vh - 150px);
+}
+
+.download-card {
+	transition: 1s all;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.download-card:hover {
+	cursor: pointer;
+	transition: 0.4s all;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.675) !important;
+}
+
+
+.icon-bigger {
+	font-size: 50px;
+}
+
+
+.btn-outline-green {
+	color: #3e988a;
+	background-image: none;
+	border-color: #3e988a;
+}
+
+.btn-outline-green:hover {
+	color: #fff;
+	background-color: #3e988a;
+	border-color: #3e988a;
+}
+
+.btn-outline-green:focus, .btn-outline-green.focus {
+	box-shadow: 0 0 0 0.2rem rgba(58, 159, 121, 0.5);
+}
+
+.btn-outline-green.disabled, .btn-outline-green:disabled {
+	color: #3e988a;
+	background-color: transparent;
+}
+
+.btn-outline-green:not(:disabled):not(.disabled):active, .btn-outline-green:not(:disabled):not(.disabled).active,
+.show > .btn-outline-green.dropdown-toggle {
+	color: #fff;
+	background-color: #3e988a;
+	border-color: #3e988a;
+}
+
+.btn-outline-green:not(:disabled):not(.disabled):active:focus, .btn-outline-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-green.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(58, 159, 121, 0.5);
+}
+
+
+.btn-outline-biege {
+	color: #6a7d98;
+	background-image: none;
+	border-color: #6a7d98;
+}
+
+.btn-outline-biege:hover {
+	color: #fff;
+	background-color: #6a7d98;
+	border-color: #6a7d98;
+}
+
+.btn-outline-biege:focus, .btn-outline-biege.focus {
+	box-shadow: 0 0 0 0.2rem rgba(47, 100, 152, 0.5);
+}
+
+.btn-outline-biege.disabled, .btn-outline-biege:disabled {
+	color: #6a7d98;
+	background-color: transparent;
+}
+
+.btn-outline-biege:not(:disabled):not(.disabled):active, .btn-outline-biege:not(:disabled):not(.disabled).active,
+.show > .btn-outline-biege.dropdown-toggle {
+	color: #fff;
+	background-color: #6a7d98;
+	border-color: #6a7d98;
+}
+
+.btn-outline-biege:not(:disabled):not(.disabled):active:focus, .btn-outline-biege:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-biege.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(47, 100, 152, 0.5);
+}
+
+.img-limited-size {
+	max-width: 64px;
+}
